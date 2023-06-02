@@ -70,7 +70,7 @@ useEffect(() => {
             </ul>
           </div>
 
-          <div className="nav__right d-flex align-itmes-center gap-4">
+          {/* <div className="nav__right d-flex align-itmes-center gap-4">
             <div className="nav__btns d-flex align-items-center gap-4">
             <Button className="btn secondary__btn">
                 <Link to='/login'>
@@ -86,7 +86,7 @@ useEffect(() => {
             <span className="mobile__menu">
             <i class="ri-menu-line"></i>
             </span>
-          </div>
+          </div> */}
 
 
         </div>
