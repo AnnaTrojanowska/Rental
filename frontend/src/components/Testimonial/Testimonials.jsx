@@ -1,8 +1,9 @@
 import React from 'react'
 import Slider from 'react-slick'
 import ava01 from '../../assets/images/ava-1.jpg'
-import ava02 from '../../assets/images/ava-2.jpg'
+import ava02 from '../../assets/images/ava-2.png'
 import ava03 from '../../assets/images/ava-3.jpg'
+import ava04 from '../../assets/images/ava-4.jpg'
 
 const Testimonials = () => {
 
@@ -77,7 +78,7 @@ const Testimonials = () => {
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, sed possimus perspiciatis incidunt nemo corrupti veritatis asperiores soluta repudiandae consectetur necessitatibus neque reprehenderit ipsam voluptatibus, amet iusto doloribus laboriosam nihil.</p>
 
         <div className='d-flex align-items-center gap-4 mt-3'>
-            <img src={ava02} className='w-25 h25 rounded-2' alt=''/>
+            <img src={ava04} className='w-25 h25 rounded-2' alt=''/>
             <div>
                 <h6 className='mb-0 mt-3'>Rachel Green</h6>
                 <p>Customer</p>
