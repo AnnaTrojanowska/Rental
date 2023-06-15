@@ -22,7 +22,7 @@
 .newsletter__input{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     background: #fff;
     padding: 0.5rem;
     margin-bottom: 2rem;
