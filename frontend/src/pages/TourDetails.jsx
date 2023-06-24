@@ -60,7 +60,7 @@ const TourDetails = () => {
       alert(err.message)
     }
 
-    alert(`${reviewText},${tourRating}`)
+    //alert(`${reviewText},${tourRating}`)
   }
 
   useEffect(() => {

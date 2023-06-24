@@ -189,7 +189,7 @@ export const getTourCount = async(req,res) =>{
     } catch (err) {
         res.status(500).json({
             success:false,
-            message: "failed to fetch"
+            //message: "failed to fetch"
         })
         
     }

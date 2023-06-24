@@ -53,11 +53,11 @@ const Booking = ({tour, avgRating}) => {
             const result = await res.json()
 
             if(!res.ok){
-                return alert(result.message)
+               // return alert(result.message)
             }
             navigate("/thank-you")
         } catch (err) {
-            alert(err.message)
+           // alert(err.message)
         }
 
         navigate('/thank-you')
