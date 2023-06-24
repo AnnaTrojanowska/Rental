@@ -56,7 +56,6 @@ const TourDetails = () => {
         return alert(result.message)
       }
       
-      alert(result.message)
     } catch (err) {
       alert(err.message)
     }
@@ -160,7 +159,7 @@ const TourDetails = () => {
                             <div className='d-flex align-items-center justify-content-between'>
                               <div>
                                 <h5>{reviews.username}</h5>
-                                <p>{new Date('01-18-2023').toLocaleDateString("en-US", options)}</p>
+                                <p>{new Date(reviews.createdAt).toLocaleDateString("en-US", options)}</p>
                               </div>
                               <span className='d-flex align-items-center'>
                                 {reviews.rating}<i class="ri-star-s-fill"></i>
